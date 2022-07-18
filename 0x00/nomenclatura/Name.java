@@ -4,11 +4,11 @@ import java.util.Date;
 public class Name {
     //variáveis que falam por si só
     //A
-    public Date modifiedDate;
-    public List<Testcase> findAllTestcasesByUser(Name.User user){};
-//    //B
-//    public Date d; // modified date
-//    public List<Testcase> find(Name.User user){}; //find all Testcases by User
+//    public Date modifiedDate;
+//    public List<Testcase> findAllTestcasesByUser(Name.User user){};
+    //B
+    public Date d; // modified date
+    public List<Testcase> find(Name.User user){}; //find all Testcases by User
 
     //Declarações corretas
     //A
@@ -17,16 +17,16 @@ public class Name {
 //    public Account[] AccountList;
 
     // Sem Prefixos
-//    //A
-//    public void deleteUser(Name.User pUser){};
-    //B
-    public void deleteUser(Name.User user){};
+    //A
+    public void deleteUser(Name.User pUser){};
+//    //B
+//    public void deleteUser(Name.User user){};
 
     // Evite mapa mental
-    //A
-//    public URL r;
-    //B
-    public URL url;
+//    A
+    public URL r;
+//    //B
+//    public URL url;
 
     // Classe possui nomes próprios, funções devem ter verbos
     //A
